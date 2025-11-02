@@ -1,0 +1,19 @@
+{
+    "name": "my-personal-website",
+    "version": "1.0.0",
+    "description": "Riya Kapadekar personal website portfolio",
+    "scripts": {
+        "dev": "parcel src/index.html --open",
+        "build": "parcel build src/index.html --public-url ./"
+    },
+    "keywords": [],
+    "author": "Riya Kapadekar",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "parcel": "^2.13.0",
+        "postcss": "^8.4.0",
+        "typescript": "^5.0.0"
+    }
+}
