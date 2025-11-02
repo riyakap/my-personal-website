@@ -398,6 +398,24 @@ img {
     margin: .1rem 0 .4rem 0
 }
 
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact-icons .icon {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-icons .icon:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
 
 /* STICKERS (fun + obvious) */
 
